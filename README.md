@@ -6,7 +6,7 @@ Dalam pengertian sederhananya, OOP adalah konsep pembuatan program dengan memeca
 
 Berbeda dengan konsep fungsi atau ‘function’ di dalam pemrograman, sebuah objek bisa memiliki data dan function tersendiri. Setiap objek ditujukan untuk mengerjakan sebuah tugas, dan menghasilkan nilai akhir untuk selanjutnya dapat ditampilkan atau digunakan oleh objek lain.
 
-Fungsi Pemrograman Berbasis Objek dalam PHP
+# Fungsi Pemrograman Berbasis Objek dalam PHP
 
 PHP bukan bahasa pemrograman yang ‘murni’ berbasis objek seperti Java. Bahkan, konsep OOP dalam PHP baru hadir dalam PHP versi 4, dan disempurnakan oleh PHP versi 5. Dengan kata lain, OOP di PHP merupakan ‘fitur tambahan’. Anda bisa membuat situs web dengan PHP tanpa menggunakan objek sama sekali.
 
