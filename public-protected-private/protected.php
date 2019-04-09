@@ -37,7 +37,7 @@
 
 
 
-	//buat class turunan
+	//buat class turunan (class turunan juga bisa mengakses)
 	class komputerlain extends komputer{
 
 		//method
