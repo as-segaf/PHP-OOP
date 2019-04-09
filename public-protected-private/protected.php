@@ -17,7 +17,7 @@
 			return "komputer ini milik $this->pemilik";
 		}
 
-		public function cara_menyalakan(){
+		public function cara_menghidupkan(){
 			return "untuk menghidupkan komputer ". $this->hidupkan_komputer();
 		}
 
@@ -29,10 +29,42 @@
 	//tampilkan
 	echo $komputer_saya->tampilkan_pemilik();
 	echo "<br>";
-	echo $komputer_saya->cara_menyalakan();
+	echo $komputer_saya->cara_menghidupkan();
+	echo "<br>";
+	echo "<br>";
+
+
+
+
+
+	//buat class turunan
+	class komputerlain extends komputer{
+
+		//method
+		public function tampilkan_owner(){
+			return "komputer ini juga milik $this->pemilik";
+		}
+
+		public function cara_menyalakan(){
+			return "untuk menyalakan komputer yang ini, " . $this->hidupkan_komputer();
+		}
+	}
+
+
+	//instansiasi(pembuatan objek)
+	$komputer_saya_juga	= new komputerlain();
+
+	//tampilkan
+	echo $komputer_saya_juga->tampilkan_owner();
+	echo "<br>";
+	echo $komputer_saya_juga->cara_menyalakan();
 	echo "<br>";
 	echo "<br>";
  
+
+
+
+
 
 	//buat class baru untuk mencoba error
 	class laptop{
