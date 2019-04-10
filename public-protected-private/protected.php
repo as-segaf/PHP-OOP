@@ -65,7 +65,7 @@
 
 
 
-
+	//contoh lain
 	//buat class baru untuk mencoba error
 	class laptop{
 
@@ -82,13 +82,19 @@
 	$laptop_saya = new laptop();
 
 	//set property akan menghasilkan error
-	$laptop_saya->pemilik="saya sendiri";
-	// Fatal error: Cannot access protected property laptop::$pemilik
+	$laptop_saya->pemilik="saya sendiri"; // Fatal error: Cannot access protected property laptop::$pemilik
 
-	//tampilkan property akan menghasilkan error
+
+	//menampilkan property akan menghasilkan error
+	//
+	//walalupun tidak set property, tapi ini terhitung memanggil dari luar
+	//objek posisinya berada di luar class
+	//inilah maksud dari protected tidak bisa di akses dari luar 
 	echo $laptop_saya->pemilik;
 	echo "<br>";
 
+
+	//ini berlaku juga untuk method
 	//tampilkan method akan menghasilkan error
 	echo $laptop_saya->hidupkan_laptop();
 
