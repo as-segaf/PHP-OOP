@@ -27,9 +27,9 @@
 	$komputer_saya = new komputer();
 
 	//tampilkan
-	echo $komputer_saya->tampilkan_pemilik();
+	echo $komputer_saya->tampilkan_pemilik(); //"komputer ini milik saya sendiri"
 	echo "<br>";
-	echo $komputer_saya->cara_menghidupkan();
+	echo $komputer_saya->cara_menghidupkan(); //"untuk menghidupkan komputer pencet tombol ON"
 	echo "<br>";
 	echo "<br>";
 
@@ -55,9 +55,9 @@
 	$komputer_saya_juga	= new komputerlain();
 
 	//tampilkan
-	echo $komputer_saya_juga->tampilkan_owner();
+	echo $komputer_saya_juga->tampilkan_owner();  //"komputer ini juga milik saya sendiri"
 	echo "<br>";
-	echo $komputer_saya_juga->cara_menyalakan();
+	echo $komputer_saya_juga->cara_menyalakan(); //"untuk menyalakan komputer yang ini pencet tombol ON"
 	echo "<br>";
 	echo "<br>";
  

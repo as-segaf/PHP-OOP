@@ -35,9 +35,9 @@
 	echo "<br>";
 
 	//tampilkan method
-	echo $laptop_saya->hidupkan_laptop();
+	echo $laptop_saya->hidupkan_laptop(); //"pencet tombol hidup laptop ini"
 	echo "<br>";
-	echo $laptop_saya->matikan_laptop();
+	echo $laptop_saya->matikan_laptop(); //"pencet tombol mati laptop ini"
 
 
 
