@@ -28,9 +28,9 @@
 	$kendaraan = new motor();
 
 	//tampilkan
-	echo $kendaraan->infoMobil();
+	echo $kendaraan->infoMobil(); //"ini mobil"
 	echo "<br>";
-	echo $kendaraan->infoMotor();
+	echo $kendaraan->infoMotor(); //"ini motor"
 
 
 
@@ -54,4 +54,5 @@
 	//instansiasi
 	$barang = new laptop();
 
+	//"Fatal error: Class laptop contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (komputer::info)"
  ?>

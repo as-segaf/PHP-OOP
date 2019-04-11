@@ -10,7 +10,7 @@
 
 	//tampilkan
 	//pemanggilan dari luar 
-	echo "harga laptop ini ".laptop::HARGA;
+	echo "harga laptop ini ".laptop::HARGA;  //"harga laptop ini 2 juta"
 	echo "<br>";
 
 
@@ -20,6 +20,7 @@
 
 	//tampilkan
 	echo "harga laptop ini ".$barang::HARGA."(ini berasal dari variabel)";
+	 //"harga laptop ini 2 juta (ini berasal dari variabel)"
 	echo "<br>";	
 
 
@@ -30,12 +31,13 @@
 	//tampilkan
 	//pemanggilan dari objek
 	echo "harga laptop ini ".$laptopSaya::HARGA."(ini berasal dari objek)";
+	//"harga laptop ini 2 juta (ini berasal dari objek)"
 	echo "<br>";
 
 
 
 	//
-	//
+	//contoh lain
 	//mengakses dari dalam class
 	//class
 	class komputer{
@@ -53,7 +55,7 @@
 	$komputerSaya = new komputer();
 
 	//tampilkan
-	echo $komputerSaya->info();
+	echo $komputerSaya->info(); //"harga komputer ini 3 juta (ini dipanggil dari dalam class)"
 	echo "<br>";
 
 
@@ -87,7 +89,7 @@
 	$kendaraan = new motor();
 
 	//tampilkan
-	echo $kendaraan->infoMobil();
+	echo $kendaraan->infoMobil(); //"harga mobil ini 4 juta"
 	echo "<br>";
-	echo $kendaraan->infoMotor();
+	echo $kendaraan->infoMotor(); //"harga motor ini 1 juta"
  ?>
