@@ -1,5 +1,6 @@
 <?php 
 
+	//buat class normal
 	class komputer{
 
 		//prpoerty
