@@ -12,7 +12,7 @@
 		 ?>
 
 		 <div class="content">
-		 	<form action="prosRegister.php" method="post">
+		 	<form action="prosesRegister.php" method="post">
 		 		<table>
 		 			<tr>
 		 				<td>Username :</td>
