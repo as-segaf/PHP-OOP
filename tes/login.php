@@ -4,6 +4,14 @@
 		<title></title>
 	</head>
 	<body>
+		<?php 
+			session_start();
+			if (isset($_SESSION['message'])) {
+				$msg = $_SESSION['message'];
+				echo $msg;
+				session_destroy();
+			}
+		 ?>
 		<form action="prosesLogin.php" method="post">
 			<table>
 				<tr>
