@@ -17,7 +17,4 @@
 	}else{
 		echo "Terjadi kesalahan, silahkan coba lagi <a href='Registesr.php'>Daftar</a>";
 	}
-
-
-
  ?>
