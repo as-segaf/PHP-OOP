@@ -6,6 +6,7 @@
 	<body>
 		<?php 
 			session_start();
+			include'config.php';
 			if (isset($_SESSION['message'])) {
 				$msg = $_SESSION['message'];
 				echo $msg;
