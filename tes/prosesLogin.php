@@ -19,7 +19,4 @@
 		$_SESSION['username'] = $hasil['username'];
 		header('location:index.php');
 	}
-
-
-
  ?>
