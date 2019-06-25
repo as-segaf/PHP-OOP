@@ -11,9 +11,9 @@
 		$_SESSION['message'] = "Akun belum terdaftar";
 		header('Location:login.php?pesan=gagal');
 
-	}else if ($pasword != $hasil['password']) {
+	}else if ($password != $hasil['password']) {
 		$_SESSION['message'] = "password salah";
-		header('location:login.php?pesan=gagal;')
+		header('location:login.php?pesan=gagal');
 
 	}else{
 		$_SESSION['username'] = $hasil['username'];
